@@ -1,0 +1,22 @@
+@import "./custom-bootstrap-variables.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+
+$customprimary: #f6ae2d!default;
+$main: #2f4858 !default;
+
+.mobileHeader{
+    background-color: $customprimary;
+}
+
+.desktopHeader{
+    background-color: $customprimary;
+}
+
+.page{
+    min-height: 100vh !important;
+    background-color: $main;
+}
+
+.customButton{
+    background-color: $customprimary!important;
+}

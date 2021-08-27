@@ -1,0 +1,20 @@
+
+$primary: #f6ae2d!default;
+$secondary: #F5F5F5 !default;
+$danger: #ED4F2C !default;
+$white: #ffffff !default;
+$black: #000000 !default;
+$placeholder: #B0B0B0 !default;
+$main: #2f4858 !default;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "white": $white,
+  "black": $black,
+  "placeholder":$placeholder,
+  "main": $main
+) !default;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+$font-family-base: "Open Sans", sans-serif;
