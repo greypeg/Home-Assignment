@@ -7,7 +7,6 @@ import CustomCard from "../../components/CustomCard/CustomCard";
 const MainPage = () => {
   const [quotes, setQuotes] = useState([]);
   useEffect(() => {
-    // Update the document title using the browser API
     services.Quotes.randomQuotes().then((response) =>
       setQuotes(response.quotes)
     );

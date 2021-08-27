@@ -46,7 +46,7 @@ const Registration = () => {
                       </Form.Group>
                     </Col>
                     <Col xs={12}>
-                      <Form.Group controlId="2">
+                      <Form.Group controlId="email">
                         <Form.Label className="text-black-50 fs-5 small mb-0 ">
                           Email
                         </Form.Label>
@@ -58,7 +58,7 @@ const Registration = () => {
                       </Form.Group>
                     </Col>
                     <Col xs={12}>
-                      <Form.Group controlId="2">
+                      <Form.Group controlId="password">
                         <Form.Label className="text-black-50 fs-5 small mb-0 ">
                           Password
                         </Form.Label>

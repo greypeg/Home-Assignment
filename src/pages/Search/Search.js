@@ -6,7 +6,7 @@ import { useInput } from "../../hooks/useInput";
 import services from "../../services";
 
 const Search = () => {
-  const { value: author, bind: bindAuthor, reset: resetAuthor } = useInput("");
+  const { value: author, bind: bindAuthor } = useInput("");
   const [search, setSearch] = useState([]);
   const DisplayQuotes = (arr) => {
     const listItems = arr.map((item, index) => (
